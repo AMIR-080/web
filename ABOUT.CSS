@@ -2,3 +2,31 @@ body{
     background-color: rgb(19, 0, 0);
     color: darkcyan;
 }
+.menu {
+  margin-top: 30px; 
+  text-align: left;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 5px 0; 
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu a {
+  color: rgb(255, 228, 132);
+  text-decoration: none;
+  background: none; 
+  padding: 5px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
